@@ -5,10 +5,17 @@ public class Producto {
     private double precio;
     private int stock;
 
-    public Producto(String nombre, double precio, int stock) {
-        this.nombre = nombre;
-        this.precio = precio;
-        this.stock = stock;
+    public static Producto crearProducto(String nombre, double precio, int stock) {
+        
+        Producto p = new Producto();
+        
+        p.nombre = nombre;
+        
+        p.precio = precio;
+        
+        p.stock = stock;
+        
+        return p;
     }
 
     public String getNombre() {
