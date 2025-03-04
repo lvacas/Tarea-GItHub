@@ -46,9 +46,4 @@ public class Producto {
         System.out.println("Producto: " + nombre + " | Precio: " + precio + " | Stock: " + stock);
     }
 
-    public void borrarDatos() {
-        nombre = "";
-        precio = 0.0;
-        stock = 0;
-    }
 }
