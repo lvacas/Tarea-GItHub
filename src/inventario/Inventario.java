@@ -4,14 +4,20 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Laura Vacas
+ * @author laura
  * @version 1.0.0
  * @since 2025/03/04
  */
 public class Inventario {
 
+    /**
+     *  Lista de productos
+     */
     public ArrayList<Producto> listaProductos;
 
+    /**
+     * Constructor
+     */
     public Inventario() {
         listaProductos = new ArrayList<>();
     }
